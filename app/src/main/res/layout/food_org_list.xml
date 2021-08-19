@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/food_org_list_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/food_org_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Food org names"
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/food_org_site_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/food_org_name_tv"
+            android:layout_marginTop="10dp"
+            android:text="Food org site"
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/food_org_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/food_org_site_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
