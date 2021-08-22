@@ -4,11 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_book.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_cancer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_child.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_cloth.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_covid.xml" value="0.165625" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_food.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_money.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_pod.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_toy.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_up.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_women.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/cloth_org_list.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/food_org_list.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/money_org_list.xml" value="0.1796875" />

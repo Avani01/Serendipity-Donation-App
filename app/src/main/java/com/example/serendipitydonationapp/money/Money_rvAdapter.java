@@ -1,6 +1,7 @@
 package com.example.serendipitydonationapp.money;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -21,12 +22,19 @@ import com.example.serendipitydonationapp.R;
 import com.example.serendipitydonationapp.cloth.ClothActivity;
 import com.example.serendipitydonationapp.cloth.Cloth_org;
 import com.example.serendipitydonationapp.cloth.Cloth_rvAdapter;
+import com.example.serendipitydonationapp.money.cancer.CancerActivity;
+import com.example.serendipitydonationapp.money.child.ChildActivity;
+import com.example.serendipitydonationapp.money.covid.CovidActivity;
+import com.example.serendipitydonationapp.money.pod.PodActivity;
+import com.example.serendipitydonationapp.money.up.UpActivity;
+import com.example.serendipitydonationapp.money.women.WomenActivity;
 
 import java.util.ArrayList;
 
 public class Money_rvAdapter extends RecyclerView.Adapter<Money_rvAdapter.MoneyViewHolder> {
     ArrayList<Money_org> money_org = new ArrayList<>();
     private Context money_context;
+    Intent i;
 
     public Money_rvAdapter (Context money_context){
         this.money_context = money_context;
@@ -53,6 +61,32 @@ public class Money_rvAdapter extends RecyclerView.Adapter<Money_rvAdapter.MoneyV
                 Toast.makeText(money_context, money_org.get(position).getName() + " selected", Toast.LENGTH_SHORT).show();
 
                 //gotoUrl(money_org.get(position).getImgURL());
+                /*holder.money_org_list_parent.getContext().startActivity(
+                        new Intent(holder.money_org_list_parent.getContext(), CancerActivity.class));*/
+
+                switch(position){
+                    case 0: i = new Intent(money_context, CancerActivity.class);
+                        money_context.startActivity(i);
+                        break;
+                    case 1: i = new Intent(money_context, ChildActivity.class);
+                        money_context.startActivity(i);
+                        break;
+                    case 2: i = new Intent(money_context, CovidActivity.class);
+                        money_context.startActivity(i);
+                        break;
+                    case 3: i = new Intent(money_context, PodActivity.class);
+                        money_context.startActivity(i);
+                        break;
+                    case 4: i = new Intent(money_context, UpActivity.class);
+                        money_context.startActivity(i);
+                        break;
+                    case 5: i = new Intent(money_context, WomenActivity.class);
+                        money_context.startActivity(i);
+                        break;
+                    default:
+                        break;
+                }
+
             }
         });
 

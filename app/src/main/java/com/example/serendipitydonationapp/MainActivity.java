@@ -1,5 +1,10 @@
 package com.example.serendipitydonationapp;
-
+// used https://developer.android.com/guide/topics/ui/layout/cardview site for gradle script dependencies
+/*
+for putting url for imageview, we are importing external library glide dependency https://github.com/bumptech/glide
+Glide is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
+*/
+// give permission to use internet in manifest file
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;

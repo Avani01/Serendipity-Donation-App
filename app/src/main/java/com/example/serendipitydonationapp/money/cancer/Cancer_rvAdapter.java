@@ -1,4 +1,4 @@
-package com.example.serendipitydonationapp.book;
+package com.example.serendipitydonationapp.money.cancer;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,75 +17,73 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.serendipitydonationapp.R;
-import com.example.serendipitydonationapp.cloth.Cloth_org;
-import com.example.serendipitydonationapp.cloth.Cloth_rvAdapter;
-import com.example.serendipitydonationapp.money.child.Child_org;
-import com.example.serendipitydonationapp.money.child.Child_rvAdapter;
+import com.example.serendipitydonationapp.book.Book_org;
+import com.example.serendipitydonationapp.book.Book_rvAdapter;
 
 import java.util.ArrayList;
 
-public class Book_rvAdapter extends RecyclerView.Adapter<Book_rvAdapter.BookViewHolder> {
-    ArrayList<Book_org> book_org = new ArrayList<>();
-    private Context book_context;
+public class Cancer_rvAdapter extends RecyclerView.Adapter<Cancer_rvAdapter.CancerViewHolder> {
+    ArrayList<Cancer_org> cancer_org = new ArrayList<>();
+    private Context cancer_context;
 
-    public Book_rvAdapter (Context book_context){
-        this.book_context = book_context;
+    public Cancer_rvAdapter (Context cancer_context){
+        this.cancer_context = cancer_context;
     }
 
-    public Book_rvAdapter() {
+    public Cancer_rvAdapter() {
 
     }
 
     @NonNull
     @Override
-    public Book_rvAdapter.BookViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public Cancer_rvAdapter.CancerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.food_org_list, parent, false);
-        Book_rvAdapter.BookViewHolder holder = new Book_rvAdapter.BookViewHolder(v);
+        Cancer_rvAdapter.CancerViewHolder holder = new Cancer_rvAdapter.CancerViewHolder(v);
         return holder;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull Book_rvAdapter.BookViewHolder holder, @SuppressLint("RecyclerView") int position) {
-        holder.food_org_name_tv.setText(book_org.get(position).getName());
-        holder.food_org_site_tv.setText(book_org.get(position).getSiteURL());
+    public void onBindViewHolder(@NonNull Cancer_rvAdapter.CancerViewHolder holder, @SuppressLint("RecyclerView") int position) {
+        holder.food_org_name_tv.setText(cancer_org.get(position).getName());
+        holder.food_org_site_tv.setText(cancer_org.get(position).getSiteURL());
         holder.food_org_list_parent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(book_context, book_org.get(position).getName() + " selected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(cancer_context, cancer_org.get(position).getName() + " selected", Toast.LENGTH_SHORT).show();
 
-                gotoUrl(book_org.get(position).getSiteURL());
+                gotoUrl(cancer_org.get(position).getSiteURL());
             }
         });
 
-        Glide.with(book_context)
+        Glide.with(cancer_context)
                 .asBitmap()
-                .load(book_org.get(position).getImgURL())
+                .load(cancer_org.get(position).getImgURL())
                 .into(holder.food_org_img);
     }
 
     private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
         Intent i = new Intent(Intent.ACTION_VIEW, uri);
-        book_context.startActivity(i);
+        cancer_context.startActivity(i);
     }
 
     @Override
     public int getItemCount() {
-        return book_org.size();
+        return cancer_org.size();
     }
 
-    public void setBook_org(ArrayList<Book_org> book_org) {
-        this.book_org = book_org;
+    public void setCancer_org(ArrayList<Cancer_org> cancer_org) {
+        this.cancer_org = cancer_org;
         notifyDataSetChanged();
     }
 
-    public class BookViewHolder extends RecyclerView.ViewHolder{
+    public class CancerViewHolder extends RecyclerView.ViewHolder{
 
         private TextView food_org_name_tv, food_org_site_tv;
         private ImageView food_org_img;
         private CardView food_org_list_parent;
 
-        public BookViewHolder(@NonNull View itemView) {
+        public CancerViewHolder(@NonNull View itemView) {
             super(itemView);
 
             food_org_name_tv = itemView.findViewById(R.id.food_org_name_tv);
