@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.serendipitydonationapp.money.MoneyActivity;
 
-public class AboutActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
+public class AboutActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     //Spinner to display Countries
     private Spinner s;
@@ -25,11 +25,10 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
         // find view by id for spinner
         s = findViewById(R.id.spinner);
 
-        ArrayAdapter<CharSequence> s_adapter = ArrayAdapter.createFromResource(this,R.array.c_options, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> s_adapter = ArrayAdapter.createFromResource(this, R.array.c_options, android.R.layout.simple_spinner_item);
         s_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s.setAdapter(s_adapter);
         s.setOnItemSelectedListener(this);
-
 
 
     }
@@ -37,29 +36,25 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String c_text = parent.getItemAtPosition(position).toString();
-        if(c_text.equals("Select"))
-        {
-            //Nothing Happens
+        switch (c_text) {
+            case "Select":
+                break;
+            case "UAE":
+                Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(AboutActivity.this, MenuActivity.class);
+                startActivity(intent);
+                break;
+
+            case "USA":
+                Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
+                //Intent for USA (Avani)
+                break;
+
+            case "India":
+                Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
+                //Intent for India (Dhakshina)
+                break;
         }
-        else
-        {
-            switch(c_text)
-            {
-                case "UAE": Toast.makeText(parent.getContext(),c_text, Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(AboutActivity.this, MenuActivity.class);
-                            startActivity(intent);
-                            break;
-
-                case "USA": Toast.makeText(parent.getContext(),c_text, Toast.LENGTH_SHORT).show();
-                     //Intent for USA (Avani)
-                     break;
-
-                case "India": Toast.makeText(parent.getContext(),c_text, Toast.LENGTH_SHORT).show();
-                    //Intent for India (Dhakshina)
-                    break;
-            }
-        }
-
     }
 
     @Override
