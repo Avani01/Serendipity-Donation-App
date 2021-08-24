@@ -36,6 +36,8 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String c_text = parent.getItemAtPosition(position).toString();
+
+        // switch case for country spinner
         switch (c_text) {
             case "Select":
                 break;
