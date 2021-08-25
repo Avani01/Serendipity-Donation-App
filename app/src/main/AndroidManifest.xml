@@ -13,41 +13,79 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SerendipityDonationApp">
         <activity
-            android:name=".money.women.WomenActivity"
+            android:name=".money.covid.usaCovid.UsaCovidActivity"
             android:exported="true" />
         <activity
-            android:name=".money.up.UpActivity"
+            android:name=".money.up.usaUp.UsaUpActivity"
             android:exported="true" />
         <activity
-            android:name=".money.pod.PodActivity"
+            android:name=".money.women.usaWomen.UsaWomenActivity"
             android:exported="true" />
         <activity
-            android:name=".money.covid.CovidActivity"
+            android:name=".money.pod.usaPod.UsaPodActivity"
             android:exported="true" />
         <activity
-            android:name=".money.child.ChildActivity"
+            android:name=".toy.usaToy.UsaToyActivity"
             android:exported="true" />
         <activity
-            android:name=".money.cancer.CancerActivity"
+            android:name=".money.child.usaChild.UsaChildActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.UsaMoneyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.cancer.usaCancer.UsaCancerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".food.usaFood.UsaFoodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cloth.usaCloth.UsaClothActivity"
+            android:exported="true" />
+        <activity
+            android:name=".book.usaBook.UsaBookActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UsaMenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.women.uaeWomen.WomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.up.uaeUp.UpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.pod.uaePod.PodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.covid.uaeCovid.CovidActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.child.uaeChild.ChildActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.cancer.uaeCancer.CancerActivity"
             android:exported="true" />
         <activity
             android:name=".money.MoneyActivity"
             android:exported="true" />
         <activity
-            android:name=".book.BookActivity"
+            android:name=".book.uaeBook.BookActivity"
             android:exported="true" />
         <activity
-            android:name=".toy.ToyActivity"
+            android:name=".toy.uaeToy.ToyActivity"
             android:exported="true" />
         <activity
-            android:name=".cloth.ClothActivity"
+            android:name=".cloth.uaeCloth.ClothActivity"
             android:exported="true" />
         <activity
-            android:name=".food.FoodActivity"
+            android:name=".food.uaeFood.FoodActivity"
             android:exported="true" />
-        <activity android:name=".MenuActivity"
+        <activity
+            android:name=".MenuActivity"
             android:exported="true" />
-        <activity android:name=".AboutActivity"
+        <activity
+            android:name=".AboutActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

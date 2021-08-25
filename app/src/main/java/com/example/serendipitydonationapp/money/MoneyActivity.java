@@ -4,14 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.serendipitydonationapp.MainActivity;
 import com.example.serendipitydonationapp.R;
-import com.example.serendipitydonationapp.cloth.Cloth_org;
-import com.example.serendipitydonationapp.cloth.Cloth_rvAdapter;
 
 import java.util.ArrayList;
 
@@ -50,7 +45,5 @@ public class MoneyActivity extends AppCompatActivity {
 
         money_rv.setAdapter(adapter);
         money_rv.setLayoutManager(new GridLayoutManager(this, 2));
-
-
     }
 }

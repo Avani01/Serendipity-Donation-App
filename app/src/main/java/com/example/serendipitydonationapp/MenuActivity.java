@@ -16,11 +16,11 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.serendipitydonationapp.book.BookActivity;
-import com.example.serendipitydonationapp.cloth.ClothActivity;
-import com.example.serendipitydonationapp.food.FoodActivity;
+import com.example.serendipitydonationapp.book.uaeBook.BookActivity;
+import com.example.serendipitydonationapp.cloth.uaeCloth.ClothActivity;
+import com.example.serendipitydonationapp.food.uaeFood.FoodActivity;
 import com.example.serendipitydonationapp.money.MoneyActivity;
-import com.example.serendipitydonationapp.toy.ToyActivity;
+import com.example.serendipitydonationapp.toy.uaeToy.ToyActivity;
 
 public class MenuActivity extends AppCompatActivity {
 

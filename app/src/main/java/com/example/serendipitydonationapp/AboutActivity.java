@@ -15,7 +15,9 @@ import com.example.serendipitydonationapp.money.MoneyActivity;
 public class AboutActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     //Spinner to display Countries
-    private Spinner s;
+    public Spinner s;
+    Intent intent;
+    public String c_text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +37,7 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        String c_text = parent.getItemAtPosition(position).toString();
+        c_text = parent.getItemAtPosition(position).toString();
 
         // switch case for country spinner
         switch (c_text) {
@@ -43,18 +45,20 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
                 break;
             case "UAE":
                 Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(AboutActivity.this, MenuActivity.class);
+                intent = new Intent(AboutActivity.this, MenuActivity.class);
                 startActivity(intent);
                 break;
 
             case "USA":
                 Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
-                //Intent for USA (Avani)
+                intent = new Intent(AboutActivity.this, UsaMenuActivity.class);
+                startActivity(intent);
                 break;
 
             case "India":
                 Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
-                //Intent for India (Dhakshina)
+                intent = new Intent(AboutActivity.this, MenuActivity.class);
+                startActivity(intent);
                 break;
         }
     }
