@@ -17,10 +17,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.serendipitydonationapp.R;
-import com.example.serendipitydonationapp.cloth.Cloth_org;
-import com.example.serendipitydonationapp.cloth.Cloth_rvAdapter;
-import com.example.serendipitydonationapp.money.child.Child_org;
-import com.example.serendipitydonationapp.money.child.Child_rvAdapter;
 
 import java.util.ArrayList;
 

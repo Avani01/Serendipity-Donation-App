@@ -9,8 +9,6 @@ import android.os.Bundle;
 import com.example.serendipitydonationapp.R;
 import com.example.serendipitydonationapp.cloth.Cloth_org;
 import com.example.serendipitydonationapp.cloth.Cloth_rvAdapter;
-import com.example.serendipitydonationapp.food.Food_org;
-import com.example.serendipitydonationapp.food.Food_rvAdapter;
 
 import java.util.ArrayList;
 

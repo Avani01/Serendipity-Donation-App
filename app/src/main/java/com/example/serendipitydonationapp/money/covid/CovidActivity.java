@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import com.example.serendipitydonationapp.R;
-import com.example.serendipitydonationapp.book.Book_org;
-import com.example.serendipitydonationapp.book.Book_rvAdapter;
+import com.example.serendipitydonationapp.money.covid.Covid_org;
+import com.example.serendipitydonationapp.money.covid.Covid_rvAdapter;
 
 import java.util.ArrayList;
 
