@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".IndiaMenuActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
-            android:text="Your choice of Donation for UAE based Organisation"
+            android:text="Your choice of Donation for India based Organisation"
             android:textAlignment="center"
             android:textColor="#00BCD4"
             android:textSize="20dp"
@@ -154,7 +154,5 @@
             />
 
     </RelativeLayout>
-
-
 
 </ScrollView>

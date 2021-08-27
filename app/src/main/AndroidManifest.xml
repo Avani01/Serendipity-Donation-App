@@ -13,6 +13,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SerendipityDonationApp">
         <activity
+            android:name=".money.IndiaMoneyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.women.indiaWomen.IndiaWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.up.indiaUp.IndiaUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.pod.indiaPod.IndiaPodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.covid.indiaCovid.IndiaCovidActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.child.indiaChild.IndiaChildActivity"
+            android:exported="true" />
+        <activity
+            android:name=".money.cancer.indiaCancer.IndiaCancerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".toy.indiaToy.IndiaToyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".food.indiaFood.IndiaFoodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cloth.indiaCloth.IndiaClothActivity"
+            android:exported="true" />
+        <activity
+            android:name=".book.indiaBook.IndiaBookActivity"
+            android:exported="true" />
+        <activity
+            android:name=".IndiaMenuActivity"
+            android:exported="true" />
+        <activity
             android:name=".money.covid.usaCovid.UsaCovidActivity"
             android:exported="true" />
         <activity

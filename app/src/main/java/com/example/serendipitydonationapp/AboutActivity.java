@@ -57,7 +57,7 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
 
             case "India":
                 Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
-                intent = new Intent(AboutActivity.this, MenuActivity.class);
+                intent = new Intent(AboutActivity.this, IndiaMenuActivity.class);
                 startActivity(intent);
                 break;
         }
