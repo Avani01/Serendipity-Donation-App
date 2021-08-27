@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".money.women.WomenActivity"
+    tools:context=".money.women.uaeWomen.WomenActivity"
     android:padding="10dp">
 
     <androidx.recyclerview.widget.RecyclerView

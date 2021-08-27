@@ -16,12 +16,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.serendipitydonationapp.R;
-import com.example.serendipitydonationapp.money.cancer.CancerActivity;
-import com.example.serendipitydonationapp.money.child.ChildActivity;
-import com.example.serendipitydonationapp.money.covid.CovidActivity;
-import com.example.serendipitydonationapp.money.pod.PodActivity;
-import com.example.serendipitydonationapp.money.up.UpActivity;
-import com.example.serendipitydonationapp.money.women.WomenActivity;
+import com.example.serendipitydonationapp.money.cancer.uaeCancer.CancerActivity;
+import com.example.serendipitydonationapp.money.child.uaeChild.ChildActivity;
+import com.example.serendipitydonationapp.money.covid.uaeCovid.CovidActivity;
+import com.example.serendipitydonationapp.money.pod.uaePod.PodActivity;
+import com.example.serendipitydonationapp.money.up.uaeUp.UpActivity;
+import com.example.serendipitydonationapp.money.women.uaeWomen.WomenActivity;
 
 import java.util.ArrayList;
 

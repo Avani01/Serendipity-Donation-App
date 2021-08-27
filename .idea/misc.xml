@@ -3,6 +3,47 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/drawable/ic_head_text.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/drawable/ic_splash_screen.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/font/quicksand_medium.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_book.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_cancer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_child.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_covid.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_food.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_book.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_cancer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_child.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_cloth.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_covid.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_food.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_money.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_pod.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_toy.xml" value="0.165625" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_up.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_india_women.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_money.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_pod.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_toy.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_up.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_book.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_cancer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_child.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_cloth.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_covid.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_food.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_money.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_pod.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_toy.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_up.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_usa_women.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_women.xml" value="0.1796875" />
+        <entry key="..\:/Users/Avani/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/food_org_list.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_book.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_cancer.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/activity_child.xml" value="0.1796875" />
@@ -18,6 +59,12 @@
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/cloth_org_list.xml" value="0.1796875" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/food_org_list.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/Avani/AndroidStudioProjects/SerendipityDonationApp/app/src/main/res/layout/money_org_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/drawable/ic_splash_screen.xml" value="0.23177083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_about.xml" value="0.10486322188449848" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_book.xml" value="0.215625" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_cancer.xml" value="0.215625" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_main.xml" value="0.215625" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Serendipity-Donation-App/app/src/main/res/layout/activity_menu.xml" value="0.215625" />
       </map>
     </option>
   </component>

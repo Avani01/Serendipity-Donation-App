@@ -45,7 +45,5 @@ public class MoneyActivity extends AppCompatActivity {
 
         money_rv.setAdapter(adapter);
         money_rv.setLayoutManager(new GridLayoutManager(this, 2));
-
-
     }
 }

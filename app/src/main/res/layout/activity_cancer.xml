@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".money.cancer.CancerActivity"
+    tools:context=".money.cancer.uaeCancer.CancerActivity"
     android:padding="10dp">
 
     <androidx.recyclerview.widget.RecyclerView
