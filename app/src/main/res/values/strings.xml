@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Serendipity Donation App</string>
-    <string name="tagline">One Stop Portal for all Donations</string>
+    <string name="tagline">One Stop Portal for all Donations\n\n\n\n\n\n\n\n\n\n\n\nCreated by Avani and Dhakshina</string>
     <string name="about">Serendipity is a donation application that provides you with a one stop access point to all the non-profit organizations who aid with different causes such as Cancer , Covid , People of Determination , Underprivileed and many more in your country. It not only redirects you to online donation portals but also provides information about donating food , clothes , books and toys. This application will save your precious time and eliminates the need to browse the internet in search of reliable charities. Now you can donate with the click of a button. </string>
     <string name="country">Please Choose the Country of Your Choice</string>
 
