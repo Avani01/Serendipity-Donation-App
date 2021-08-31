@@ -6,8 +6,8 @@
 
     <string-array name="c_options">
         <item>Select</item>
-        <item>UAE</item>
         <item>India</item>
+        <item>UAE</item>
         <item>USA</item>
     </string-array>
 </resources>

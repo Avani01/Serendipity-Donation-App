@@ -43,6 +43,13 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
         switch (c_text) {
             case "Select":
                 break;
+
+            case "India":
+                Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
+                intent = new Intent(AboutActivity.this, IndiaMenuActivity.class);
+                startActivity(intent);
+                break;
+
             case "UAE":
                 Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
                 intent = new Intent(AboutActivity.this, MenuActivity.class);
@@ -52,12 +59,6 @@ public class AboutActivity extends AppCompatActivity implements AdapterView.OnIt
             case "USA":
                 Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
                 intent = new Intent(AboutActivity.this, UsaMenuActivity.class);
-                startActivity(intent);
-                break;
-
-            case "India":
-                Toast.makeText(parent.getContext(), c_text, Toast.LENGTH_SHORT).show();
-                intent = new Intent(AboutActivity.this, IndiaMenuActivity.class);
                 startActivity(intent);
                 break;
         }
